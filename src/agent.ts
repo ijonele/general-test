@@ -5,7 +5,9 @@ import type { TaskContext, TaskYieldUpdate, MessagePart } from "@wardenprotocol/
 
 const PORT = Number(process.env.PORT) || 3000;
 const HOST = process.env.HOST || "localhost";
-const BASE_URL = `http://${HOST}:${PORT}`;
+const BASE_URL =
+  process.env.RENDER_EXTERNAL_URL ??
+  `http://localhost:${PORT}`;
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
