@@ -4,7 +4,6 @@ import { AgentServer } from "@wardenprotocol/agent-kit";
 import type { TaskContext, TaskYieldUpdate, MessagePart } from "@wardenprotocol/agent-kit";
 
 const PORT = Number(process.env.PORT) || 3000;
-const HOST = process.env.HOST || "localhost";
 const BASE_URL =
   process.env.RENDER_EXTERNAL_URL ??
   `http://localhost:${PORT}`;
