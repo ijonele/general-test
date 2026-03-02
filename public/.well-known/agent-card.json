@@ -1,16 +1,12 @@
 {
-  "name": "new-test",
-  "description": "A helpful AI agent named new-test",
-  "url": "RENDER_EXTERNAL_URL",
+  "name": "general-test",
+  "description": "A helpful AI agent named general-test",
+  "url": "http://localhost:3000",
   "version": "0.1.0",
   "capabilities": {
     "streaming": true
   },
-  "defaultInputModes": [
-    "text/plain"
-  ],
-  "defaultOutputModes": [
-    "text/plain"
-  ],
+  "defaultInputModes": ["text/plain"],
+  "defaultOutputModes": ["text/plain"],
   "skills": []
 }

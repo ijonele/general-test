@@ -74,7 +74,7 @@ const paymentConfig = process.env.X402 === "false" ? null : getPaymentConfig();
 if (paymentConfig) {
   const app = createPaymentApp(
     paymentConfig,
-    "A helpful AI agent named new-test",
+    "A helpful AI agent named general-test",
     server.getA2AServer().getHandler(),
     server.getLangGraphServer().getHandler(),
     process.env.AGENT_API_KEY,
@@ -85,7 +85,7 @@ if (paymentConfig) {
   const model = process.env.OPENAI_MODEL || "gpt-4o-mini";
   console.log(`Model: ${model}`);
   console.log(`API Key: ${hasApiKey ? "configured" : "NOT SET"}`);
-    console.log(`new-test (Dual Protocol + x402 Payments)`);
+    console.log(`general-test (Dual Protocol + x402 Payments)`);
     if (process.env.AGENT_API_KEY) {
       console.log("API Key: protected (Bearer auth bypasses payment)");
     } else {
@@ -133,7 +133,7 @@ httpServer.listen(PORT, () => {
   const model = process.env.OPENAI_MODEL || "gpt-4o-mini";
   console.log(`Model: ${model}`);
   console.log(`API Key: ${hasApiKey ? "configured" : "NOT SET"}`);
-  console.log(`new-test (Dual Protocol)`);
+  console.log(`general-test (Dual Protocol)`);
   if (process.env.X402 === "false") {
     console.log("x402 payments disabled (X402=false)");
   }

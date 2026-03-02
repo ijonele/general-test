@@ -28,7 +28,7 @@ export async function* handler(context: TaskContext): AsyncGenerator<TaskYieldUp
     const stream = await openai.chat.completions.create({
       model: process.env.OPENAI_MODEL || "gpt-4o-mini",
       messages: [
-        { role: "system", content: "A helpful AI agent named new-test" },
+        { role: "system", content: "A helpful AI agent named general-test" },
         { role: "user", content: userMessage },
       ],
       stream: true,

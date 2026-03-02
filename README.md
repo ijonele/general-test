@@ -1,6 +1,6 @@
-# new-test
+# general-test
 
-A helpful AI agent named new-test
+A helpful AI agent named general-test
 
 ## x402 Payments
 
@@ -55,8 +55,8 @@ The agent will be available at `http://localhost:3000`.
 Build and run with Docker:
 
 ```bash
-docker build -t new-test .
-docker run -p 3000:3000 -e AGENT_URL=http://your-public-url:3000 new-test
+docker build -t general-test .
+docker run -p 3000:3000 -e AGENT_URL=http://your-public-url:3000 general-test
 ```
 
 Set `AGENT_URL` to the public URL where the agent will be reachable. This is used in the agent card for discovery by other agents and clients.
