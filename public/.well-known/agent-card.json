@@ -1,7 +1,7 @@
 {
   "name": "general-test",
   "description": "A helpful AI agent named general-test",
-  "url": "http://localhost:3000",
+  "url": "https://general-test.onrender.com",
   "version": "0.1.0",
   "capabilities": {
     "streaming": true
