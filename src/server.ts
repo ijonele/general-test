@@ -9,7 +9,7 @@ import { getPaymentConfig, createPaymentApp } from "./payments.js";
 const PORT = Number(process.env.PORT) || 3000;
 const HOST = process.env.HOST || "localhost";
 const BASE_URL = `http://${HOST}:${PORT}`;
-const AGENT_URL = process.env.AGENT_URL || BASE_URL;
+const AGENT_URL = process.env.RENDER_EXTERNAL_URL || BASE_URL;
 
 const agentCard = JSON.parse(
   readFileSync(new URL("../public/.well-known/agent-card.json", import.meta.url), "utf-8"),
