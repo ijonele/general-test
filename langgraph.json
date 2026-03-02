@@ -1,5 +1,0 @@
-{
-  "graphs": {
-    "agent": "./src/agent.ts:graph"
-  }
-}

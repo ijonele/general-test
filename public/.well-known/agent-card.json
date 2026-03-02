@@ -1,0 +1,16 @@
+{
+  "name": "new-test",
+  "description": "A helpful AI agent named new-test",
+  "url": "RENDER_EXTERNAL_URL",
+  "version": "0.1.0",
+  "capabilities": {
+    "streaming": true
+  },
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain"
+  ],
+  "skills": []
+}

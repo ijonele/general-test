@@ -1,0 +1,26 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "new-test",
+  "description": "A helpful AI agent named new-test",
+  "image": "",
+  "services": [
+    {
+      "name": "A2A",
+      "endpoint": "",
+      "version": "0.3.0"
+    },
+    {
+      "name": "Web",
+      "endpoint": ""
+    }
+  ],
+  "x402Support": true,
+  "x402Networks": [
+    "evm"
+  ],
+  "active": true,
+  "registrations": [],
+  "supportedTrust": [
+    "reputation"
+  ]
+}

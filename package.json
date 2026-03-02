@@ -1,22 +1,26 @@
 {
-  "name": "general-test",
+  "name": "new-test",
   "version": "0.1.0",
   "type": "module",
-  "main": "dist/agent.js",
+  "main": "dist/server.js",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "agent": "node dist/agent.js"
+    "start": "node dist/server.js"
   },
   "dependencies": {
-    "@inquirer/prompts": "^8.2.0",
-    "@wardenprotocol/agent-kit": "^0.2.0",
+    "@wardenprotocol/agent-kit": "^0.5.0",
     "dotenv": "^16.4.0",
-    "openai": "^4.69.0"
+    "openai": "^4.69.0",
+    "express": "^4.21.0",
+    "@x402/express": "^2.3.0",
+    "@x402/core": "^2.3.0",
+    "@payai/facilitator": "^2.2.4",
+    "@x402/evm": "^2.3.0"
   },
   "devDependencies": {
     "@types/node": "^22.8.1",
     "typescript": "^5.6.3",
-    "vitest": "^4.0.18"
+    "@types/express": "^5.0.0"
   }
 }
