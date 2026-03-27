@@ -3,18 +3,22 @@
   "name": "general-test",
   "description": "A helpful AI agent named general-test",
   "image": "",
-  "services": [{
-    "name": "A2A",
-    "endpoint": "",
-    "version": "0.3.0"
-},
-  {
-    "name": "Web",
-    "endpoint": ""
-}],
+  "services": [
+    {
+      "name": "A2A",
+      "endpoint": "",
+      "version": "0.3.0"
+    },
+    {
+      "name": "Web",
+      "endpoint": ""
+    }
+  ],
   "x402Support": false,
   "x402Networks": [],
   "active": true,
   "registrations": [],
-  "supportedTrust": ["reputation"]
+  "supportedTrust": [
+    "reputation"
+  ]
 }
