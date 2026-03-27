@@ -12,5 +12,14 @@
   "defaultOutputModes": [
     "text/plain"
   ],
-  "skills": []
+  "skills": [
+    {
+      "id": "conversation",
+      "name": "Conversation",
+      "description": "Conversation capability",
+      "tags": [
+        "oasf:natural_language/generation/dialogue_generation"
+      ]
+    }
+  ]
 }
