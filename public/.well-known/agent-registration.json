@@ -2,22 +2,27 @@
   "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
   "name": "general-test",
   "description": "A helpful AI agent named general-test",
-  "image": "",
+  "image": "https://general-test.onrender.com/icon.png",
   "services": [
     {
       "name": "A2A",
-      "endpoint": "",
+      "endpoint": "https://general-test.onrender.com/.well-known/agent-card.json",
       "version": "0.3.0"
     },
     {
       "name": "Web",
-      "endpoint": ""
+      "endpoint": "https://general-test.onrender.com/"
     }
   ],
   "x402Support": false,
   "x402Networks": [],
   "active": true,
-  "registrations": [],
+  "registrations": [
+    {
+      "agentId": 2302,
+      "agentRegistry": "eip155:11155111:0x8004A818BFB912233c491871b3d84c89A494BD9e"
+    }
+  ],
   "supportedTrust": [
     "reputation"
   ]
